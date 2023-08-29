@@ -1,0 +1,132 @@
+@charset "uft-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+strong{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;    
+}
+
+header{
+width: 1380px;
+height: 475px;
+flex-shrink: 0;
+background-color: #303030;
+}
+
+header>h1{
+    width: 1024px;
+
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.5px;
+
+    position: absolute;
+    top: 206px;
+    left: 62px;
+    right: 354px;
+    bottom:197px;
+}
+
+header>p{
+    width: 1024px;
+    color: #FFF;
+    font-feature-settings: 'liga' off;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+    position: absolute;
+    left: 62px;
+    top:298px;
+    right:354px;
+    bottom: 149px;
+}
+
+div{
+    width: 1380px;
+    height: 100px;
+    flex-shrink: 0;
+    background: #F9F9F9;
+    display: flex;
+
+}
+
+
+div>p.menu{
+    width: 354px;
+    height: 67px;
+    flex-shrink: 0;
+    color: #000;
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+    margin: 25px;
+}
+main{
+    width: 1380px;
+    height: 700px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+div#meio{
+    width: 500px;
+    height: 161px;
+    margin: 80px;
+    display: block;
+    background-color: #FFF;
+}
+div#meio >h2{
+    margin: 20px;
+    margin-left: 0px;
+    font-size: 28px;
+}
+
+div#meio>p{
+    color: #000;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+text-align: justify;
+}
+
+ main img{
+    width: 500px;
+height: 600px;
+flex-shrink: 0;
+margin: 80px;
+ }
+
+ footer{
+    width: 1380px;
+    height: 600px;
+    flex-shrink: 0;
+    background-color: #303030;
+ }
+
+
+
+
+
