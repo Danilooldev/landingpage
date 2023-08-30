@@ -18,7 +18,7 @@ strong{
 }
 
 header{
-width: 1380px;
+width: 1440px;
 height: 475px;
 flex-shrink: 0;
 background-color: #303030;
@@ -61,7 +61,7 @@ header>p{
 }
 
 div{
-    width: 1380px;
+    width: 1440px;
     height: 100px;
     flex-shrink: 0;
     background: #F9F9F9;
@@ -84,7 +84,7 @@ div>p.menu{
     margin: 25px;
 }
 main{
-    width: 1380px;
+    width: 1440px;
     height: 700px;
     flex-shrink: 0;
     display: flex;
@@ -120,11 +120,54 @@ margin: 80px;
  }
 
  footer{
-    width: 1380px;
+    width: 1440px;
     height: 600px;
     flex-shrink: 0;
     background-color: #303030;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
  }
+ div#rodape{
+    width: 400px;
+    height: 40px;
+    background-color: #303030;
+    margin-top: 30px;
+    
+
+ }
+ div#texto{
+    width: 600px;
+    height: 40px;
+    background-color: #303030;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    
+ }
+ input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+ }
+ div#texto{
+    color: white;
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+ }
+ button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: chocolate;
+    margin-left: 50px;
+ }
+
+ 
+
 
 
 
